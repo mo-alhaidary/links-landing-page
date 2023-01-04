@@ -30,6 +30,8 @@
 
 <body class="style_3">
 	
+
+	
 	<div id="preloader">
 		<div data-loader="circle-side"></div>
 	</div><!-- /Preload -->
@@ -81,7 +83,7 @@
 	                            <div id="progressbar"></div>
 	                        </div>
 	                        <!-- /top-wizard -->
-	                        <form id="wrapped" method="POST" autocomplete="off">
+	                        <form id="wrapped" autocomplete="off">
 	                            <input id="website" name="website" type="text" value="">
 	                            <!-- Leave for security protection, read docs for details -->
 	                            <div id="middle-wizard">
@@ -141,11 +143,12 @@
 
 	                            </div>
 	                            <!-- /middle-wizard -->
+								<!-- <div class="form-group terms">Added to waitlist</div> -->
 
-	                            <div id="bottom-wizard">
-	                                <button type="button" name="backward" class="backward">Prev</button>
-	                                <button type="button" name="forward" class="forward">Next</button>
-	                                <button type="submit" name="process" class="submit">Join the waitlist</button>
+	                            <div id="bottom-wizard" >
+	                                <!-- <button type="button" name="backward" class="backward">Prev</button>
+	                                <button type="button" name="forward" class="forward">Next</button> -->
+	                                <button type="submit" class="submit">Join the waitlist</button>
 	                            </div>
 	                            <!-- /bottom-wizard -->
 
@@ -199,9 +202,11 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/common_scripts.min.js"></script>
 	<script src="js/functions.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+	<script src="js/mail.js"></script>
+	
 	<!-- Wizard script -->
-	<script src="js/survey_func.js"></script>
+	<!-- <script src="js/survey_func.js"></script> -->
 
 </body>
 </html>

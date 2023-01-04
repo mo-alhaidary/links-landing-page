@@ -17,6 +17,10 @@
 		form.validate();
 		if (form.valid()) {
 			$("#loader_form").fadeIn();
+			setTimeout(function(){
+				console.log("Executed after 1 second");
+			}, 2000);
+			$("#loader_form").fadeOut();
 		}
 	});
 	
